@@ -1,0 +1,79 @@
+body {
+    background: url('img/bg.jpg') no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.navbar {
+    border-bottom: #fff 3px solid;
+    opacity: .7;
+}
+.dark-overlay {
+    background-color: rgba(0,0,0,.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 100%;
+}
+
+/* Texto Inicial */
+.principal {
+    background: rgba(0,0,0,.7);
+    padding:100px 0;
+    text-align: center;
+    color:#fff;
+    position: relative;
+    font-weight: 400;
+}
+ 
+.principal h2, .principal p {
+    background: rgba(0,0,0,0);
+    display:inline-block;
+    padding:10px 20px;
+}
+ 
+.principal h2 {
+    font-size:40px;
+    letter-spacing: 2.5px;
+    font-weight: normal;
+}
+
+.principal a {
+    padding: 0 20px 0 20px;
+    color: white;
+}
+
+.formulas {
+  font-size: 150%;
+  padding: 6px;
+}
+
+.grupo-formulas {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 8px;
+  padding: 10px;
+}
+
+.formula .katex-display {
+  padding: 0 10px 12px 10px;
+  margin: 12px 12px 0 12px;
+}
+
+.formula-texto .katex-display{
+  font-size: 80%;
+  padding: 0;
+}
+
+.formula-titulo {
+  display: block;
+  padding: 4px;
+  border: 1px solid white;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 90%;
+  text-align: center;
+}
